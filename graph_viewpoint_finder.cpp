@@ -141,7 +141,7 @@ struct Graph {
 };
 
 Graph* read_initial_graph() {
-  std::fstream fin{ "ex4.in" };
+  std::fstream fin{ "graph.in" };
 
   int V, E; fin >> V >> E;
   Graph* G = new Graph(V, E);
